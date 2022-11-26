@@ -20,7 +20,7 @@ in
       impermanence.nixosModules.impermanence
       ./system.nix
       nur.nixosModules.nur
-      # ../modules/programs/nurpkgs.nix
+      ../modules/programs/nurpkgs.nix
       home-manager.nixosModules.home-manager
       {
         home-manager.useGlobalPkgs = true;
