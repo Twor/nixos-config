@@ -4,7 +4,7 @@
   programs.fish = {
     enable = true;
     shellAliases = {
-      setproxy = "export ALL_PROXY=socks5://127.0.0.1:7891";
+      setproxy = "export ALL_PROXY=http://127.0.0.1:7890";
       unsetproxy = "unset ALL_PROXY";
     };
   };
