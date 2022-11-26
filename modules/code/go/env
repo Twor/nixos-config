@@ -1,0 +1,3 @@
+GO111MODULE=on
+GOMODCACHE=/angus/go/pkg/mod
+GOPATH=/angus/go
