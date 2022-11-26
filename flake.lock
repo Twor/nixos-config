@@ -52,6 +52,22 @@
         "type": "github"
       }
     },
+    "nixpkgs_2": {
+      "locked": {
+        "lastModified": 1669387357,
+        "narHash": "sha256-z1azVj/5Em5kGhh9OgBOsjTEgMab7hXL/aRilH9tzyI=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "55b3f68bda6d4f4dc6092eed0508063f154fa4fd",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixpkgs-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
     "nur": {
       "locked": {
         "lastModified": 1669182177,
@@ -72,7 +88,8 @@
         "home-manager": "home-manager",
         "impermanence": "impermanence",
         "nixpkgs": "nixpkgs",
-        "nur": "nur"
+        "nur": "nur",
+        "xmcl-launcher": "xmcl-launcher"
       }
     },
     "utils": {
@@ -87,6 +104,24 @@
       "original": {
         "owner": "numtide",
         "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "xmcl-launcher": {
+      "inputs": {
+        "nixpkgs": "nixpkgs_2"
+      },
+      "locked": {
+        "lastModified": 1669448551,
+        "narHash": "sha256-uSwJLBy9ucnO1XRdYfugzX5PVxuGztRwGXP+iFHVrsA=",
+        "owner": "Twor",
+        "repo": "nur-packages",
+        "rev": "63cce7eb494de779cca803a657bbaf01f27a70a4",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Twor",
+        "repo": "nur-packages",
         "type": "github"
       }
     }

@@ -17,6 +17,10 @@
       nur = {
         url = "github:nix-community/NUR"; # NUR Packages
       };
+      xmcl-launcher = {
+        url = "github:Twor/nur-packages"; # xmcl-launcher
+        inputs.nixpkgs.follows = "nixpkgs";
+      };
     };
 
   outputs = inputs @ { self, nixpkgs, home-manager, nur, impermanence, ... }: # Function that tells my flake which to use and what do what to do with the dependencies.
