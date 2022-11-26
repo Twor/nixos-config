@@ -19,4 +19,5 @@
   home.file.".config/fish/functions/xdg-get.fish".source = ./functions/xdg-get.fish;
   home.file.".config/fish/functions/xdg-set.fish".source = ./functions/xdg-set.fish;
   home.file.".config/fish/functions/fisher.fish".source = ./functions/fisher.fish;
+  home.file.".config/fish/functions/greeting.fish".source = ./functions/greeting.fish;
 }
